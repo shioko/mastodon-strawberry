@@ -92,3 +92,13 @@
 	background: $cbut;
 	color: $btt2;
 }
+
+.button.button-secondary {
+	color: $cbut;
+	border-color: $cbut;
+}
+.button.button-secondary:hover {
+	clear: $curl;
+	border-color: $cbut;
+	background: transparent;
+}
