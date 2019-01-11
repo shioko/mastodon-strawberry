@@ -1,7 +1,6 @@
 .loading-bar {
   background: #f9ebdd; }
 
-body,
 body.app-body,
 .ui {
   background: #fa9986; }
@@ -183,6 +182,15 @@ body.lighter {
 .button.button-alternative {
   background: #ff5050;
   color: #f7fcf7; }
+
+.button.button-secondary {
+  color: #ff5050;
+  border-color: #ff5050; }
+
+.button.button-secondary:hover {
+  color: #ff7d75;
+  border-color: #ff5050;
+  background: transparent; }
 
 * {
   outline: 0; }
